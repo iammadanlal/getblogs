@@ -1,0 +1,14 @@
+{
+  "name": "getblogs",
+  "version": "1.0.0",
+  "description": "get blogs from social media platforms",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "blogs", "articles", "social media", "posts", "medium", "dev.to", "hashnode"
+  ],
+  "author": "Madan Lal <iammadanlalmali@gmail.com>",
+  "license": "ISC"
+}
