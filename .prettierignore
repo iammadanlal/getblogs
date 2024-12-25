@@ -1,0 +1,20 @@
+.idea
+.DS_STORE
+.eslintcache
+*.swp
+*~
+api-extractor.json
+coverage
+
+build
+dist
+lib
+
+# Breaks tests
+/e2e/coverage-handlebars/greet.hbs
+
+# Third-party script
+
+
+**/.yarn
+**/.pnp.*

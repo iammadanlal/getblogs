@@ -1,0 +1,12 @@
+!.*
+coverage
+node_modules
+bin
+build
+dist
+lib
+
+# Third-party script
+
+**/.yarn
+**/.pnp.*
