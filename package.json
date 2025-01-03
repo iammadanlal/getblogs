@@ -2,7 +2,11 @@
   "name": "getblogs",
   "version": "1.0.0",
   "description": "get blogs from social media platforms",
-  "main": "lib/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
