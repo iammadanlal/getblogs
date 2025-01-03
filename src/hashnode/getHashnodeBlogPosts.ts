@@ -1,7 +1,11 @@
 import { HASHNODE_API_URL } from "../config";
-import { HashnodeBlogPostResponse } from "./hashnode.type";
+import { HashNodeBlogPostByUsernameResponse } from "./hashnode.type";
 
-export default async function getHashnodeBlogPosts(username: string, page: number = 1, limit:number = 5): Promise<HashnodeBlogPostResponse[]> {
+export default async function getHashnodeBlogPosts(
+    username: string,
+    page: number = 1,
+    limit: number = 5,
+): Promise<HashNodeBlogPostByUsernameResponse> {
     return await fetch(HASHNODE_API_URL, {
         headers: {
             "Content-Type": "application/json",
@@ -42,9 +46,9 @@ export default async function getHashnodeBlogPosts(username: string, page: numbe
                     totalDocuments
                 }
             }
-        }`
+        }`,
+        }),
     })
-    })
-    .then(response => response.json())
-    .catch(error => error);
+        .then((response) => response.json())
+        .catch((error) => error);
 }
