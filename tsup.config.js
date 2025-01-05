@@ -6,8 +6,9 @@ export default defineConfig({
     outDir: "dist",
     clean: true,
     format: ["cjs", "esm"],
-    treeshake: true,
-    splitting: false,
-    cjsInterop: true,
+    splitting: true,
     minify: true,
+    sourcemap: false,
+    bundle: true,
+    skipNodeModulesBundle: true,
 });

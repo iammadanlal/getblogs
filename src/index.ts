@@ -1,9 +1,15 @@
-import medium from './medium';
-import hashnode from './hashnode';
-import devto from './dev.to';
+import _medium from "./medium";
+import _hashnode from "./hashnode";
+import _devto from "./dev.to";
 
-export default {
-    medium,
-    hashnode,
-    devto
-}
+const getblogs = {
+    devto: _devto,
+    hashnode: _hashnode,
+    medium: _medium,
+};
+
+export const devto = _devto;
+export const hashnode = _hashnode;
+export const medium = _medium;
+
+export default getblogs;
