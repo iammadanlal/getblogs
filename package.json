@@ -28,7 +28,8 @@
     "lint": "eslint . --cache --ext js,jsx,cjs,mjs,ts,tsx,md --quiet",
     "prettier": "prettier . \"!**/*.{js,jsx,cjs,mjs,ts,tsx}\" --cache",
     "prettier:ci": "npm run prettier --check",
-    "format": "npm run prettier --write"
+    "format": "npm run prettier --write",
+    "postpublish": "git push"
   },
   "keywords": [
     "blogs",
