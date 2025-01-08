@@ -44,13 +44,13 @@ $ pnpm add getblogs
 Using jsDelivr CDN (ES5 UMD browser module):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/getblogs@1.0.3/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/getblogs@1.0.4/dist/index.js"></script>
 ```
 
 Using unpkg CDN:
 
 ```html
-<script src="https://unpkg.com/browse/getblogs@1.0.3/dist/index.js"></script>
+<script src="https://unpkg.com/browse/getblogs@1.0.4/dist/index.js"></script>
 ```
 
 ## Features

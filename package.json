@@ -1,6 +1,6 @@
 {
   "name": "getblogs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "get blogs from social media platforms",
   "type": "module",
   "main": "./dist/index.cjs",
